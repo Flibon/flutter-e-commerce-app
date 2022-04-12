@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
                       onChanged: (value) {
                         name = value;
                         setState(() {
-                          
+
                         });
                       }
                       ),
@@ -63,18 +63,18 @@ class _LoginPageState extends State<LoginPage> {
                     height: 40,
                     color: Colors.deepPurple,
                     child: Text(
-                    "Login",
-                    style: TextStyle(
-                      color:Colors.white,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 18),
-                      ),
-                      decoration: BoxDecoration(
+                      "Login",
+                      style: TextStyle(
+                          color:Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18),
+                    ),
+                    decoration: BoxDecoration(
                         color: Colors.deepPurple,
                         borderRadius: BorderRadius.circular(8)
                         ),
                   ),
-                  
+
                   // ElevatedButton(
                   //   onPressed: () {
                   //     Navigator.pushNamed(context, MyRoutes.homeroute);
